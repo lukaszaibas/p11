@@ -1,0 +1,423 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+section.blog .background{
+    background: url("../img/vairas.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.blog nav{
+    margin: auto;
+}
+
+section.blog  li{
+    display: inline-block;
+
+}
+
+section.blog .background a.topbtn{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    transition: 0.7s;
+    margin: 0 15px 15px 0;
+}
+
+section.blog a.topbtn:hover{
+    color: springgreen;
+    font-size: 25px;
+    border-top: 1px solid springgreen;
+    border-bottom: 1px solid springgreen;
+    padding: 5px;
+
+}
+
+
+section.blog .background img{
+    width: 80px ;
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+
+.firstcontent {
+    margin: 50px 100px 50px 100px;
+}
+
+.fa-sun{
+    font-size: 30px;
+}
+
+.firstcontent h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.olivacontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.olivacontainer img.image1{
+    width: 66%;
+}
+
+.olivacontainer .olivacontent i{
+    font-size: 30px;
+    margin-top: 15px;
+
+}
+
+.olivacontainer .olivacontent h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.olivacontainer .olivacontent p{
+    margin: 0 30px 30px 30px;
+}
+
+.olivacontainer .olivacontent{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.olivacontainer img.image2 {
+    width: 100%;
+}
+
+.lacontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lacontainer .lacontent{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lacontainer .lacontent i{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.lacontainer .lacontent h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.lacontainer .lacontent p{
+    margin: 0 30px 30px 30px;
+
+
+}
+
+.lacontent img.image3{
+    width: 100%;
+}
+
+.lacontainer img.image4{
+    width: 66%;
+}
+
+.retrocontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.retrocontainer img.image5{
+    width: 34%;
+}
+
+.retrocontainer .retrocont{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.retrocontainer .retrocont i{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.retrocontainer .retrocont h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.retrocontainer .retrocont p{
+    margin: 0 30px 30px 30px;
+}
+
+.retrocontainer img.image7{
+    width: 33%;
+}
+
+.retrocontainer .retrocont img.image6{
+    width: 100%;
+
+}
+
+
+
+.bottominfo .fa-twitter{
+    font-size: 30px;
+    color: deepskyblue;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.bottominfo h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bottominfo h3 span{
+    font-weight: lighter;
+    color: lightgrey;
+}
+
+.bottominfo p{
+    line-height: 1.5;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.bottominfo .bottombutton a{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+
+
+.bottominfo .bottombutton a:hover{
+    background: springgreen;
+    border: springgreen;
+}
+
+
+.imagecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.imagecontainer .threeimages{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+}
+
+.imagecontainer .threeimages img.image8{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagecontainer .threeimages img.image9{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagecontainer .threeimages img.image10{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagecontainer img.image11{
+    width: 17%;
+}
+.imagecontainer img.image12{
+     width: 17%;
+ }
+
+.imagecontainer .twoimages {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagecontainer img.image13{
+      width: 100%;
+}
+
+.imagecontainer img.image14{
+       width: 100%;
+}
+
+
+.discover {
+    background: black;
+}
+
+.discover .discoverbutton{
+    font-size:14px;
+    line-height:30px;
+    color: #fff;
+    border:1px solid white;
+    width:200px;
+    font-weight:bold;
+    text-transform: uppercase;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 60px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.discover .discoverbutton:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+
+}
+
+
+
+.emailcontent img{
+    width: 60px;
+    margin-top: 25px;
+}
+
+.emailcontent h4{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.emailcontent .emailadress{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.emailcontent .emailadress input{
+    padding: 15px;
+    font-size: 15px;
+    width: 200px;
+}
+
+.emailcontent .emailadress .button{
+    display: inline-block;
+    text-align: center;
+    background: springgreen;
+    font-size: 20px;
+    color: white;
+    width: 44px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto 4px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.emailcontent .emailadress .button:hover{
+    color: lightseagreen;
+    background: white;
+    border: 1px solid lightseagreen;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background: lightgrey;
+    align-items: center;
+}
+
+.bottom .address{
+    display: inline-block;
+    color: darkgrey;
+    width: 33%;
+}
+
+.bottom .address h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bottom .address p{
+    font-size: 14px;
+}
+
+.bottom .pintic{
+    display: inline-block;
+    font-size: 25px;
+    width: 33%;
+
+}
+
+.fa-twitter-square{
+    margin-top: 8px;
+    color: deepskyblue;
+}
+
+.fa-facebook-square{
+    margin-top: 8px;
+    color: dodgerblue;
+
+}
+
+.fa-pinterest-square{
+    margin-top: 8px;
+    color: red;
+
+}
+
+.bottom .icon{
+    margin-bottom: 10px;
+    width: 33%;
+}
+
+
+.bottom .icon span{
+    display: inline-block;
+    color: darkgrey;
+    font-size: 14px;
+    position: relative;
+    margin-top: 12px;
+}
+
+.fa-angellist{
+    position: absolute;
+    margin-left: 5px;
+    color: black;
+    font-size: 35px;
+
+}
